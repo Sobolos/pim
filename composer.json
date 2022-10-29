@@ -11,7 +11,9 @@
     "pimcore/pimcore": "^10.5"
   },
   "require-dev": {
-    "codeception/codeception": "^4.1.12"
+    "codeception/codeception": "^4.1.12",
+    "phpunit/phpunit": "^9.5",
+    "symfony/test-pack": "^1.0"
   },
   "suggest": {
     "pimcore/data-hub": "Universal data interface for GraphQL, CSV and other formats"

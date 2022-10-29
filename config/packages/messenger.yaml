@@ -1,0 +1,13 @@
+framework:
+    messenger:
+        transports:
+            amqp_new_folder_notification:
+                dsn: '%env(MESSENGER_TRANSPORT_DSN)%'
+                options:
+                    exchange:
+                        name: new_folder_notification
+                        type: fanout
+                    queues:
+                        new_folder_notification: ~
+        routing:
+            App\Message\NewFolderMessage: amqp_new_folder_notification
