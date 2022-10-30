@@ -12,6 +12,7 @@
   },
   "require-dev": {
     "codeception/codeception": "^4.1.12",
+    "phpstan/phpstan": "^1.8",
     "phpunit/phpunit": "^9.5",
     "symfony/test-pack": "^1.0"
   },
